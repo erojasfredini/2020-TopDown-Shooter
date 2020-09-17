@@ -12,7 +12,7 @@ namespace CompleteProject
         public Slider healthSlider;                                 // Reference to the UI's health bar.
         public Image damageImage;                                   // Reference to an image to flash on the screen on being hurt.
         public AudioClip deathClip;                                 // The audio clip to play when the player dies.
-        public float flashSpeed = 5f;                               // The speed the damageImage will fade at.
+        public float flashSpeed = 10f;                               // The speed the damageImage will fade at.
         public Color flashColour = new Color(1f, 0f, 0f, 0.1f);     // The colour the damageImage is set to, to flash.
 
 
@@ -91,9 +91,9 @@ namespace CompleteProject
             // Tell the animator that the player is dead.
             anim.SetTrigger ("Die");
 
-            // Set the audiosource to play the death clip and play it (this will stop the hurt sound from playing).
+            // Set the audio source to play the death clip and play it (this will stop the hurt sound from playing).
             playerAudio.clip = deathClip;
-            playerAudio.Play ();
+            playerAudio.Play();
 
             // Turn off the movement and shooting scripts.
             playerMovement.enabled = false;
