@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -19,8 +20,8 @@ MonoBehaviour:
     linkText: Open the instructions in your browser
     url: https://unity3d.com/learn/tutorials/projects/survival-shooter-tutorial
   - heading: Get Support
-    text: Each tutorial project has a dedicated forum thread to accompany it. If you
-      need help, visit the forum and ask!
+    text: Each tutorial project has a dedicated forum thread to accompany it. If
+      you need help, visit the forum and ask!
     linkText: Visit the dedicated Forum Thread
     url: https://forum.unity3d.com/threads/survival-shooter-q-a.313934/
   loadedLayout: 1
