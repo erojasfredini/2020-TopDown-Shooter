@@ -190,6 +190,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bat
       objectReference: {fileID: 0}
+    - target: {fileID: 6356755680300122963, guid: 8a8af51737d2b454b92e62d8cd2580da,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a8af51737d2b454b92e62d8cd2580da, type: 3}
 --- !u!4 &49643674 stripped
@@ -209,6 +214,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stool
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027540681668687227, guid: 5ae633a87c81a434781499b315b2b875,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4027540681668716891, guid: 5ae633a87c81a434781499b315b2b875,
         type: 3}
@@ -277,7 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141013620}
   - component: {fileID: 141013621}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -387,7 +397,7 @@ MonoBehaviour:
   prefabEnemigo: {fileID: 5896891196144039752, guid: ed3a3c69e24704f499c444e5f7c21f3d,
     type: 3}
   timepoSpawn: 1
-  cantidadMaxEnemigos: 12
+  cantidadMaxEnemigos: 8
 --- !u!4 &295925573
 Transform:
   m_ObjectHideFlags: 0
@@ -511,6 +521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166926815665722232, guid: 6f6af667b453559459fcbccae3e4a30d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3166926815665950552, guid: 6f6af667b453559459fcbccae3e4a30d,
         type: 3}
@@ -636,6 +651,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Train
       objectReference: {fileID: 0}
+    - target: {fileID: 8520358470010379479, guid: f0387be71d383ae4783757fc8d0425a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0387be71d383ae4783757fc8d0425a2, type: 3}
 --- !u!4 &694983598 stripped
@@ -654,7 +674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 754821865}
   - component: {fileID: 754821866}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -697,7 +717,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 759941326}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ParedesLimite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -754,7 +774,7 @@ MonoBehaviour:
   prefabEnemigo: {fileID: 5896891196144039752, guid: ed3a3c69e24704f499c444e5f7c21f3d,
     type: 3}
   timepoSpawn: 1
-  cantidadMaxEnemigos: 12
+  cantidadMaxEnemigos: 8
 --- !u!4 &793686899
 Transform:
   m_ObjectHideFlags: 0
@@ -842,6 +862,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Firetruck
       objectReference: {fileID: 0}
+    - target: {fileID: 4080558601399124987, guid: 47db7a617de0bdf4fb87dd28aa891e0a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47db7a617de0bdf4fb87dd28aa891e0a, type: 3}
 --- !u!4 &974276961 stripped
@@ -866,7 +891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1066530277}
   - component: {fileID: 1066530278}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,6 +992,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dollhouse
       objectReference: {fileID: 0}
+    - target: {fileID: 7353736580288504273, guid: 06c357f5582182c4cbffa3cc06932174,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c357f5582182c4cbffa3cc06932174, type: 3}
 --- !u!1001 &1250294687
@@ -1036,6 +1066,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DollArm (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5026595507029873922, guid: 6f94d57ce15d8474bad3a426445b910d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f94d57ce15d8474bad3a426445b910d, type: 3}
 --- !u!1 &1263878914
@@ -1048,7 +1083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1263878915}
   - component: {fileID: 1263878916}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Pared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1155,6 +1190,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DollArm
       objectReference: {fileID: 0}
+    - target: {fileID: 5026595507029873922, guid: 6f94d57ce15d8474bad3a426445b910d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f94d57ce15d8474bad3a426445b910d, type: 3}
 --- !u!4 &1374720217 stripped
@@ -1230,6 +1270,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drawers
       objectReference: {fileID: 0}
+    - target: {fileID: 2541920473034728372, guid: ad120ed803840684c8470e0180862508,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad120ed803840684c8470e0180862508, type: 3}
 --- !u!1001 &1492904588
@@ -1242,6 +1287,18 @@ PrefabInstance:
     - target: {fileID: 100000, guid: cd89b29b93f735d4890454fe39739868, type: 3}
       propertyPath: m_Name
       value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd89b29b93f735d4890454fe39739868, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: cd89b29b93f735d4890454fe39739868, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cd89b29b93f735d4890454fe39739868, type: 3}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cd89b29b93f735d4890454fe39739868, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1382,6 +1439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arches
       objectReference: {fileID: 0}
+    - target: {fileID: 2962567163607493745, guid: 6bc7491c5cbfd2e439ba6d1a8687c7d2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc7491c5cbfd2e439ba6d1a8687c7d2, type: 3}
 --- !u!4 &1826130371 stripped
@@ -1500,6 +1562,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hearse
       objectReference: {fileID: 0}
+    - target: {fileID: 425315067706784128, guid: 35d0c0ffe4bf9a847b1d24af50b543ea,
+        type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 425315067707205024, guid: 35d0c0ffe4bf9a847b1d24af50b543ea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1589,7 +1656,7 @@ MonoBehaviour:
   prefabEnemigo: {fileID: 5896891196144039752, guid: ed3a3c69e24704f499c444e5f7c21f3d,
     type: 3}
   timepoSpawn: 1
-  cantidadMaxEnemigos: 12
+  cantidadMaxEnemigos: 8
 --- !u!4 &2050698204
 Transform:
   m_ObjectHideFlags: 0
@@ -1636,7 +1703,7 @@ MonoBehaviour:
   prefabEnemigo: {fileID: 5896891196144039752, guid: ed3a3c69e24704f499c444e5f7c21f3d,
     type: 3}
   timepoSpawn: 1
-  cantidadMaxEnemigos: 12
+  cantidadMaxEnemigos: 8
 --- !u!4 &2061225123
 Transform:
   m_ObjectHideFlags: 0
@@ -1661,6 +1728,22 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bd3a7a773fe02354da0a4d8dbabd8cbb, type: 3}
       propertyPath: m_Name
       value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bd3a7a773fe02354da0a4d8dbabd8cbb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: bd3a7a773fe02354da0a4d8dbabd8cbb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: bd3a7a773fe02354da0a4d8dbabd8cbb, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: bd3a7a773fe02354da0a4d8dbabd8cbb, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bd3a7a773fe02354da0a4d8dbabd8cbb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1816,10 +1899,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8394151068694401314, guid: 6f974d033889a014a94671c20372061b,
+        type: 3}
+      propertyPath: distanciaConoRepulsor
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394151068694401314, guid: 6f974d033889a014a94671c20372061b,
+        type: 3}
+      propertyPath: velocidadRepulsion
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394151068694401321, guid: 6f974d033889a014a94671c20372061b,
+        type: 3}
+      propertyPath: radioPlayer
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8394151068694401321, guid: 6f974d033889a014a94671c20372061b,
+        type: 3}
+      propertyPath: rotCoef
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9690567
+      value: -0.27368686
       objectReference: {fileID: 0}
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
@@ -1829,27 +1932,27 @@ PrefabInstance:
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.2532244
+      value: -2.7260673
       objectReference: {fileID: 0}
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.12785414
       objectReference: {fileID: 0}
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.991793
       objectReference: {fileID: 0}
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
@@ -1864,7 +1967,7 @@ PrefabInstance:
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 14.691
       objectReference: {fileID: 0}
     - target: {fileID: 8394151069283374569, guid: 6f974d033889a014a94671c20372061b,
         type: 3}

@@ -13,6 +13,6 @@ public class Moneda : MonoBehaviour
     {
         var rot = Vector3.up * velocidadRotacion * Time.deltaTime;
         transform.rotation *= Quaternion.Euler(rot);
-        Debug.Log($"[Moneda] rotEje={rot}");
+        //Debug.Log($"[Moneda] rotEje={rot}");
     }
 }

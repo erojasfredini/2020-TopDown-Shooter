@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bala : MonoBehaviour
 {
     public float velocidad = 3.0f;
+    public float radioExplosion = 3.0f;
     private Rigidbody rb;
 
     void Start()
@@ -14,13 +15,19 @@ public class Bala : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("[Bala] Bala colisiona");
+        //Debug.Log("[Bala] Bala colisiona");
+        Collider[] enemigos = Physics.OverlapSphere(transform.position, radioExplosion);
+        foreach (var e in enemigos)
+        {
+            var eDummy = e.GetComponent<EnemigoDummy>();
+            if (eDummy == null)
+            {
+                continue;
+            }
+            eDummy.RecibirDanio();
+        }
+
         GameObject.Destroy(gameObject);
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-
     }
 
     // Update is called once per frame

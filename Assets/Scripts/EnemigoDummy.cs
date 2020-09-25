@@ -10,14 +10,20 @@ public class EnemigoDummy : MonoBehaviour
     public float rotCoef = 0.1f;
     private Rigidbody rb;
 
-    private void OnTriggerEnter(Collider other)
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.gameObject.CompareTag("Bala"))
+    //    {
+    //        Debug.Log("[EnemigoDummy] Murio");
+    //        GameObject.Instantiate(prefabItem, transform.position, Quaternion.identity);
+    //        GameObject.Destroy(gameObject);
+    //    }
+    //}
+
+    public void RecibirDanio()
     {
-        if (other.gameObject.CompareTag("Bala"))
-        {
-            Debug.Log("[EnemigoDummy] Murio");
-            GameObject.Instantiate(prefabItem, transform.position, Quaternion.identity);
-            GameObject.Destroy(gameObject);
-        }
+        GameObject.Instantiate(prefabItem, transform.position, Quaternion.identity);
+        GameObject.Destroy(gameObject);
     }
 
     void Start()
@@ -27,7 +33,8 @@ public class EnemigoDummy : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void FixedUpdate()
+    //void FixedUpdate()
+    void Update()
     {
         var dir = (player.position - transform.position).normalized;
 
