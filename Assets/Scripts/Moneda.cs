@@ -5,9 +5,6 @@ using UnityEngine;
 public class Moneda : MonoBehaviour
 {
     public float velocidadRotacion = 10.0f;
-    void Start()
-    {
-    }
 
     void FixedUpdate()
     {

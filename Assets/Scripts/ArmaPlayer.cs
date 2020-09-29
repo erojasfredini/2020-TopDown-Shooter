@@ -16,7 +16,13 @@ public class ArmaPlayer : MonoBehaviour
 
     public float distanciaConoRepulsor = 1.0f;
     public float anguloConoRepulsor = 45.0f;
+
     public float velocidadRepulsion = 1.0f;
+
+    //public AudioClip sonidoDisparo;
+    public List<AudioClip> sonidoDisparo;
+    public Vector2 rangoPitch = new Vector2(1.0f, 1.1f);
+    public AudioSource armaAudioSource;
 
     void Update()
     {
@@ -54,6 +60,8 @@ public class ArmaPlayer : MonoBehaviour
         bool puedeDispararMisil = (Time.time - tiempoUltimoDisparoMisil) > tiempoCoolDownMisil;
         if (disparaMisil && puedeDispararMisil)
         {
+            armaAudioSource.pitch = Random.RandomRange(rangoPitch.x, rangoPitch.y);
+            armaAudioSource.PlayOneShot(sonidoDisparo[Random.RandomRange(0, sonidoDisparo.Count)]);
             GameObject.Instantiate(prefabBala, origenArma.position, origenArma.rotation);
             tiempoUltimoDisparoMisil = Time.time;
             //Debug.Log("[ArmaPlayer] Disparando misil!");

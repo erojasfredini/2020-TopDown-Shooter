@@ -15,14 +15,16 @@ public class MovimientoPlayer : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         camT = Camera.main.transform;
     }
-
+    public AudioClip sonidoItem;
     public int cantidadMonedas = 0;
+    public AudioSource playerAudioSource;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Item"))
         {
             ++cantidadMonedas;
             Debug.Log("[MovimientoPlayer] Junto moneda");
+            playerAudioSource.PlayOneShot(sonidoItem);
             GameObject.Destroy(other.gameObject);
         }
     }
