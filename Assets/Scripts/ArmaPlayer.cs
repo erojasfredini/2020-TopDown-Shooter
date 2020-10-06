@@ -9,6 +9,7 @@ public class ArmaPlayer : MonoBehaviour
 
     void Start()
     {
+        armaAudioSource = GetComponent<AudioSource>();
     }
 
     private float tiempoUltimoDisparoMisil = 0.0f;
